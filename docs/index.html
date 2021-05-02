@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Резюме: Максим Калимуллин</title>
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__rightside">
+
+      <nav>
+        <ul class="nav_list visually-hidden">
+          <li class="visually-hidden"><a class="nav_list__item" href="#about">Обо мне</a></li>
+          <li class="visually-hidden"><a class="nav_list__item" href="#skills">Навыки</a></li>
+          <li class="visually-hidden"><a class="nav_list__item" href="#portfolio">Портфолио</a></li>
+        </ul>
+      </nav>
+      <img class="main_photo" src="img/main-photo-1x.jpg" alt="Фото профиля" srcset="img/main-photo-2x.jpg 2x">
+    </div>
+    <div class="header__leftside">
+
+
+      <h1 class="person_name">Максим<br>Калимуллин</h1>
+      <ul class="social_networks__list">
+        <li><a href="https://t.me/eldrssn" target="_blank" class="social_network__list__item">Telegram</a></li>
+        <li><a href=" https://github.com/eldrssn" target="_blank" class="social_network__list__item">Github</a></li>
+        <li><a href="mailto:maxkalimulin@gmail.com" target="_blank"
+            class="social_network__list__item visually-hidden">Mail</a></li>
+      </ul>
+      <a href="#">
+        <h3 class="button_CV">Загрузить CV</h3>
+      </a>
+    </div>
+
+  </header>
+
+  <main class="main">
+    <section id="about" class="section__wrap">
+      <h2 class="section__header">Обо мне</h2>
+      <div class="section__text">
+        <p>Привет! Меня зовут Максим, я начинающий веб-разработчик, который хочет вырасти до настоящего
+          fullstack-девелопера.</p>
+        <p>За последний год самостоятельно изучил HTML, CSS и JavaScript. Так же взял <a
+            href="https://assets.htmlacademy.ru/certificates/intensive/179/1433369.pdf" target="_blank">курсы у
+            html-академии “JS - Профессиональная разработка веб-интерфейсов”</a>, и <a
+            href="https://github.com/htmlacademy-javascript/1433369-kekstagram-22" target="_blank">защитил проект</a> на
+          100%.</p>
+        <p>Могу делать кроссбраузерные и адаптивные сайты по принципу Mobile first. Умею писать сайты, используя флексы,
+          понимаю как работают гриды. Уделяю достаточное внимание семантике и доступности. Нравится прописывать и
+          продумывать логику работы сайта в браузере. Понимаю, как устроен TypeScript и Node.JS. Знаю и понимаю принципы
+          ООП. Сейчас изучаю React + Redux, но если нужно, могу посвятить себя и Ангуляру.</p>
+        <p>Знаю английский на уверенном уровне - понимаю и могу объясниться.</p>
+      </div>
+    </section>
+    <section id="skills" class="section__wrap">
+      <h2 class="section__header">Навыки</h2>
+      <ul class="skills_list">
+        <li class="skills_list__item">HTML</li>
+        <li class="skills_list__item">CSS</li>
+        <li class="skills_list__item">Javascript</li>
+        <li class="skills_list__item skills_list__item--translucent">React</li>
+        <li class="skills_list__item skills_list__item--translucent">Redux</li>
+        <li class="skills_list__item">SCSS</li>
+        <li class="skills_list__item skills_list__item--translucent">Webpack</li>
+        <li class="skills_list__item">Git</li>
+        <li class="skills_list__item skills_list__item--translucent">Gulp</li>
+        <li class="skills_list__item">БЭМ</li>
+        <li class="skills_list__item">AJAX</li>
+        <li class="skills_list__item">Figma</li>
+        <li class="skills_list__item">Adobe Photoshop</li>
+      </ul>
+      <p class="skills_list__caption">* полупрозрачным выделены
+        технологии, которые изучаю в данный момент
+      </p>
+    </section>
+    <section id="portfolio" class="section__wrap">
+      <h2 class="section__header">Портфолио</h2>
+      <article class="portfolio_item">
+        <a href="https://htmlacademy-javascript.github.io/1433369-kekstagram-22/13/" target="_blank">
+          <img src="./img/my_kekstogram.jpg" alt="Фото кекстаграма" class="portfolio_item__picture">
+        </a>
+        <div class="portfolio_item__description">
+          <a href="https://htmlacademy-javascript.github.io/1433369-kekstagram-22/13/" target="_blank">
+            <h3 class="portfolio__header">Кекстаграм</h3>
+          </a>
+          <p class="section__text">Учебный проект с интенсива html-академии “Javascript. Профессиональная разработка
+            веб-интерфейсов”
+          </p>
+        </div>
+      </article>
+      <article class="portfolio_item">
+        <a href="https://eldrssn.github.io/task-tracker/" target="_blank">
+          <img src="./img/my_tasktracker.jpg" alt="Фото таск-трекера" class="portfolio_item__picture">
+          <div class="portfolio_item__description portfolio_item__description--left">
+            <a href="https://eldrssn.github.io/task-tracker/" target="_blank">
+              <h3 class="portfolio__header">Таск трекер</h3>
+            </a>
+            <p class="section__text">Личный проект на ванильном JS, вдохновленный
+              trello.com</p>
+            </p>
+          </div>
+      </article>
+      <article class="portfolio_item">
+        <a href="https://eldrssn.github.io/keyboard/" target="_blank">
+          <img src="./img/my_keyboard.jpg" alt="Фото клавиатуры" class="portfolio_item__picture">
+        </a>
+        <div class="portfolio_item__description">
+          <a href="https://eldrssn.github.io/keyboard/" target="_blank">
+            <h3 class="portfolio__header">Вирутальная клавиатура</h3>
+          </a>
+          <p class="section__text">Простая виртуальная клавиатура, написанная на
+            ванильном JS</p>
+        </div>
+      </article>
+    </section>
+    <section class="section__wrap">
+      <img class="conclusion__picture" src="img/end-picture-1x.jpg" srcset="img/end-picture-2x.jpg"
+        alt="изображение с растением">
+      <div class="conclusion">
+        <p class="section__text conclusion__text">Можете связаться со мной по любому удобному для вас каналу связи.
+          </br>
+          С радостью готов ответить на любые ваши вопросы, либо обсудить ваши предложения.
+        </p>
+        <ul class="contacts">
+          <li>Email</li>
+          <li><a href="mailto:maxkalimulin@gmail.com">maxkalimulin@gmail.com</a></li>
+          <li>Претендую на вакансию</li>
+          <li>Junior Frontend Developer</li>
+          <li>Телефон</li>
+          <li class=phone><a href="tel:+79992216489">+7 (999) 221-64-89</a></li>
+        </ul>
+      </div>
+  </main>
+
+  <footer class="footer">
+    <div>Максим Калимуллин • 2021</div>
+  </footer>
+
+</body>
+
+</html>
