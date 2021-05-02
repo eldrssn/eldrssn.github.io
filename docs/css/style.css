@@ -34,7 +34,7 @@
 
   .main_photo {
     width: 100%;
-    min-height: auto;
+    height: auto;
   }
 
   .header__leftside {
