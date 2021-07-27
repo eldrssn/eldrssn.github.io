@@ -1,0 +1,98 @@
+@media screen and (max-width: 750px) {
+  * {
+    font-family: $font-text;
+    text-decoration: none;
+    color: $black;
+  }
+
+  .visually-hidden {
+    display: none;
+  }
+
+  .header {
+    background-color: $light-accent;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .header__rightside {
+    align-self: flex-start;
+    width: 50%;
+    display: flex;
+  }
+
+  .main_photo {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+
+  .header__leftside {
+    display: flex;
+    flex-direction: column;
+    order: -1;
+    width: 50%;
+    z-index: 1;
+
+    a {
+      margin: auto;
+    }
+  }
+
+  .person_name {
+    font-family: $font-header;
+    font-size: 9vw;
+    color: $font-header-color;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 9vw;
+    padding-bottom: 10px;
+    padding-top: 70px;
+    padding-left: 14px;
+    margin: 0;
+  }
+
+  .social_networks__list {
+    font-family: $font-header;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 10px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-inline-start: 0;
+  }
+
+  .social_network__list__item {
+    text-decoration: none;
+    color: $black;
+    padding: 5px;
+  }
+
+  .button_CV {
+    display: inline-block;
+    width: auto;
+    font-size: 3vw;
+    line-height: 24px;
+    letter-spacing: 3px;
+    color: $font-header-color;
+    mix-blend-mode: normal;
+    background-color: $strong-accent;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+    margin: auto;
+    color: $font-header-color;
+    mix-blend-mode: normal;
+    text-transform: uppercase;
+  }
+}

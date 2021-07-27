@@ -1,0 +1,152 @@
+@media screen and (max-width: 750px) {
+  .main {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .section__wrap {
+    margin-top: 80px;
+    margin-bottom: 40px;
+  }
+
+  .section__header {
+    font-family: $font-header;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 73px;
+    white-space: nowrap;
+    text-transform: uppercase;
+    color: $font-header-color;
+    margin-left: 10px;
+    margin-bottom: 25px;
+  }
+
+  .section__text {
+    font-family: $font-text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: $font-text-color;
+
+    p {
+      padding-bottom: 18px;
+    }
+
+    a {
+      font-weight: 700;
+    }
+  }
+
+  .skills_list {
+    font-family: $font-header;
+    line-height: 44px;
+    font-size: 16px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: $font-text-color;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  .skills_list__item {
+    color: $font-text-color;
+    background-color: $strong-accent;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 25px;
+    border-radius: 25px;
+  }
+
+  .skills_list__item--translucent {
+    opacity: 50%;
+  }
+
+  .skills_list__caption {
+    text-align: end;
+    opacity: 50%;
+  }
+
+  .portfolio_item {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .portfolio_item__picture {
+    width: 100%;
+    height: auto;
+  }
+
+  .portfolio_item__description {
+    line-height: 33px;
+    text-align: end;
+    margin-bottom: 60px;
+  }
+
+  .portfolio__header {
+    font-family: $font-header;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: $font-header-color;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .contacts {
+    padding: 20px;
+    background-color: $light-accent;
+    display: inline-block;
+    list-style: none;
+    max-width: 300px;
+    align-self: center;
+
+    li:nth-child(odd) {
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px;
+      text-transform: uppercase;
+      color: #7E7C7C;
+      padding-bottom: 5px;
+      letter-spacing: 4px;
+    }
+
+    li:nth-child(even) {
+      font-size: 16px;
+      line-height: 24px;
+      color: #2E2E2E;
+      margin-bottom: 20px;
+    }
+
+    li:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .conclusion {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .conclusion__picture {
+    width: 100%;
+    height: auto;
+  }
+
+  .conclusion__text {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 16px;
+  }
+}

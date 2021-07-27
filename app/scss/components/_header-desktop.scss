@@ -1,0 +1,126 @@
+@media screen and (min-width: 750px) {
+  * {
+    font-family: $font-text;
+    text-decoration: none;
+    color: $black;
+  }
+
+  .header {
+    max-width: 1000px;
+    min-width: 750px;
+    max-height: 530px;
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .header__rightside {
+    align-self: flex-end;
+    max-width: 850px;
+    background-color: $light-accent;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav_list {
+    text-transform: uppercase;
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+  }
+
+  .nav_list__item {
+    text-decoration: none;
+    color: $black;
+    font-size: 12px;
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    letter-spacing: 4px;
+    text-decoration: none;
+
+    &:hover {
+      font-weight: 600;
+    }
+  }
+  
+
+  .main_photo {
+    width: 50%;
+    height: auto;
+  }
+
+  .header__leftside {
+    position: relative;
+    top: -335px;
+  }
+
+  .person_name {
+    font-family: $font-header;
+    font-size: 80px;
+    color: $font-header-color;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100px;
+    padding-bottom: 25px;
+    margin: 0;
+  }
+
+  .social_networks__list {
+    font-family: $font-header;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    padding: 10px;
+  }
+
+  .social_network__list__item {
+    text-decoration: none;
+    color: $black;
+    display: block;
+    padding-bottom: 10px;
+    padding-right: 35px;
+    padding-left: 10px;
+
+    &:hover {
+      transition: all 200ms;
+      -webkit-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+      transform: scale(1.05);
+    }
+  }
+
+  .button_CV {
+    display: inline-block;
+    width: auto;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 6px;
+    color: $font-header-color;
+    mix-blend-mode: normal;
+    text-transform: uppercase;
+    background-color: $strong-accent;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+    mix-blend-mode: normal;
+    text-transform: uppercase;
+
+    &:hover {
+      transition: all 200ms;
+      color: $black;
+    }
+  }
+}

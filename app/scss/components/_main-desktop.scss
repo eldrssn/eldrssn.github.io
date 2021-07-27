@@ -1,0 +1,171 @@
+@media screen and (min-width: 750px) {
+  .visually_hidden--on_desktop {
+    display: none;
+  }
+
+  .main {
+    max-width: 1000px;
+    min-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .section__wrap {
+    margin-top: 135px;
+    margin-bottom: 70px;
+  }
+
+  .section__header {
+    font-family: $font-header;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 73px;
+    white-space: nowrap;
+    text-transform: uppercase;
+    color: $font-header-color;
+    margin-left: 10px;
+    margin-bottom: 25px;
+  }
+
+  .section__text {
+    font-family: $font-text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 36px;
+    color: $font-text-color;
+
+    p {
+      padding-bottom: 18px;
+    }
+
+    a {
+      font-weight: 700;
+    }
+  }
+
+  .skills_list {
+    font-family: $font-header;
+    line-height: 44px;
+    font-size: 22px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    color: $font-text-color;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .skills_list__item {
+    color: $font-text-color;
+    background-color: $strong-accent;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 15px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    border-radius: 25px;
+  }
+
+  .skills_list__item--translucent {
+    opacity: 50%;
+  }
+
+  .skills_list__caption {
+    text-align: end;
+    opacity: 50%;
+  }
+
+  .portfolio_item {
+    display: flex;
+  }
+
+  .portfolio_item__picture {
+    max-width: 400px;
+    height: auto;
+    margin: 35px;
+
+    &:hover {
+      transition: all 350ms;
+      box-shadow: 1px 1px #9b9393, 2px 2px #999999, 3px 3px #999999, 4px 4px #999999, 5px 5px #999999, 6px 6px #999999, 7px 7px #999999;
+      -webkit-transform: translateX(-7px);
+      transform: translateX(-7px);
+    }
+  }
+
+  .portfolio_item__description {
+    margin: 35px;
+    line-height: 33px;
+  }
+
+  .portfolio__header {
+    font-family: $font-header;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    color: $font-header-color;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    &:hover {
+      transition: all 350ms;
+      color: $black;
+    }
+  }
+
+  .portfolio_item__description--left {
+    text-align: end;
+    order: -1;
+  }
+
+  .contacts {
+    padding: 35px;
+    background-color: $light-accent;
+    display: inline-block;
+    list-style: none;
+    position: relative;
+    transform: translate(0, -50%);
+
+    li:nth-child(odd) {
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 24px;
+      text-transform: uppercase;
+      color: #7E7C7C;
+      padding-bottom: 5px;
+      letter-spacing: 4px;
+    }
+
+    li:nth-child(even) {
+      font-size: 16px;
+      line-height: 27px;
+      color: #2E2E2E;
+      margin-bottom: 20px;
+    }
+
+    li:last-child {
+      margin-bottom: 0;
+    }
+
+  }
+  
+  .conclusion {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .conclusion__picture {
+    width: 100%;
+    height: auto;
+  }
+
+  .conclusion__text {
+    margin-top: 30px;
+    width: 50%;
+  }
+}
