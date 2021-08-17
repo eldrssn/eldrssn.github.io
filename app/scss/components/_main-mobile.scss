@@ -12,7 +12,7 @@
   }
 
   .section__header {
-    font-family: $font-header;
+    font-family: $font-text;
     font-style: normal;
     font-weight: 500;
     font-size: 35px;
@@ -26,6 +26,7 @@
 
   .section__text {
     font-family: $font-text;
+    font-weight: 400;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -42,7 +43,8 @@
   }
 
   .skills_list {
-    font-family: $font-header;
+    font-family: $font-text;
+    font-weight: 500;
     line-height: 44px;
     font-size: 16px;
     list-style: none;
@@ -94,8 +96,8 @@
   }
 
   .portfolio__header {
-    font-family: $font-header;
-    font-weight: 700;
+    font-family: $font-text;
+    font-weight: 600;
     font-size: 20px;
     line-height: 30px;
     color: $font-header-color;
@@ -112,7 +114,7 @@
     align-self: center;
 
     li:nth-child(odd) {
-      font-weight: 500;
+      font-weight: 400;
       font-size: 14px;
       line-height: 20px;
       text-transform: uppercase;
