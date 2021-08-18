@@ -90,7 +90,7 @@ function build() {
 	return src([
 		'./app/css/*.css',
     './app/css/map/*.map',
-		'./app/fonts/**/*.*',
+		// './app/fonts/**/*.*',
     './app/files/**/*.*',
 		'./app/js/main.bundle.js',
 		'./app/*.html',
